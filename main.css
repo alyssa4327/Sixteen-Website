@@ -1,0 +1,33 @@
+body {
+    width: 360px;
+}
+nav{
+    background:#acd373;
+}
+
+h1 {
+    font-family: 'Source Sans Pro Bold';
+    color: #f7f7f7;
+    text-alight: center;
+}
+h3 {
+    font-family: 'Source Sans Pro Bold';
+    color:#f7f7f7; 
+}
+h2 {
+    text alight: left;
+    background: url(images/icon-man.png) no-repeat;
+    padding-left: 37px
+}
+
+.greeting {
+    background:#9abd67 url(images/bkg-silhouette.png)no-repeat bottom;
+    height: 350px;
+}
+.iphone {
+    background:#f7f7f7;
+}
+.our services h2 {
+    font-family: 'Source Sans Pro';
+    color: #acd373;
+}
