@@ -1,8 +1,27 @@
 body {
     width: 360px;
 }
+header {
+    background-color:#acd373;
+    height: 40px;
+    position: relative;
+}
+.logo {
+    margin-left: 30px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 8px;
+}
 nav{
-    background:#acd373;
+    background-color:#89a85c;
+    background-image: url(images/btn-tg-button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top:0px;
+    right:0px;
+    width:40px;
+    height:40px;
 }
 
 h1 {
@@ -14,20 +33,34 @@ h3 {
     font-family: 'Source Sans Pro Bold';
     color:#f7f7f7; 
 }
-h2 {
+.who-we-are h2 {
     text alight: left;
     background: url(images/icon-man.png) no-repeat;
     padding-left: 37px
 }
-
+section {
+    padding: 30px;
+}
 .greeting {
     background:#9abd67 url(images/bkg-silhouette.png)no-repeat bottom;
     height: 350px;
 }
-.iphone {
-    background:#f7f7f7;
+
+/*who we are*/
+
+.who-we-are .iphone {
+    display: block;
+    margin: 0 auto;
 }
-.our services h2 {
+
+.who-we-are {
+    background: #f7f7f7;
+}
+
+/*Our Services Section */
+
+.our-services h1, h3 {
     font-family: 'Source Sans Pro';
     color: #acd373;
 }
+
