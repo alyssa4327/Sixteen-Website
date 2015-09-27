@@ -1,3 +1,10 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
     width: 360px;
     margin: 0;
@@ -57,7 +64,7 @@ section {
 
 .who-we-are .iphone {
     display: block;
-    margin: 0 auto;
+    margin: 13px auto 36px;
 }
 
 .who-we-are {
@@ -80,5 +87,101 @@ section {
 .our-services h1, h3 {
     font-family: 'Source Sans Pro';
     color: #acd373;
+}
+
+.service-item{
+  padding-lef:55px;
+  min-height:65px;
+  margin:0 0 10px;
+}
+
+.service-image{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  width: 50px;
+}
+
+.service-item * {
+  outline: 1px solid transparent;
+}
+
+.service-info {
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+.service-info h3{
+  margin: 0 0 8px;
+}
+
+.service-info p{
+  margin: 0;
+}
+
+
+/*John Doe Section*/
+
+.testimonial-company {
+  margin: 50px 0;
+}
+
+.testimonial-company img {
+  border-radius: 50%;
+}
+
+.testimonials {
+  background:rgba (0,0,0,0.5);
+  color: #f7f7f7;
+  background: url(images/paperopenbackground-03.gif) no-repeat;
+  background-size: cover;
+}
+
+
+.testimonial-quote{
+  background: 
+  padding: 20px 10px 26px;
+  background-position: 254px 56px;
+  border: 1px solid #f7f7f7;
+}
+.testimonial-quote p{
+  margin:0;
+  font-family: DroidSerif;
+  font-size: 14.8px;
+  margin:0;
+}
+.testimonial-company img, .company-details{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-details {
+  margin-left:22px;
+}
+
+.company-details h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.company-details a{
+  color: rgb(247, 247, 247);
+  font-family:DroidSerif;
+  font-size: 14.8px;
+  font-style:italic;
+  text-decoration: none;
+}
+
+/*Contact Section*/
+
+.contact {
+  background-color: #acd373;
+}
+
+form label {
+  display:block;
 }
 
