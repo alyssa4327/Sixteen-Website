@@ -460,12 +460,7 @@ nav{
     height:40px;
 }
 
-h1 {
-   
-}
-h3 {
-  
-}
+
 
 section {
     padding: 30px;
@@ -482,7 +477,7 @@ section {
 }
 
 .greeting h1 {
-    margin-top: 0;
+    margin-top: 70px;
     font-size: 20px;
     font-weight: 600;
     color: #f7f7f7;
@@ -500,9 +495,16 @@ section {
     background: #f7f7f7;
 }
 .who-we-are h2 {
-    text alight: left;
+    text-align: left;
     background: url(images/icon-man.png) no-repeat;
-    padding-left: 37px
+    padding-left: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.who-we-are p {
+  font-size: 13px;
 }
 
 /*Student Video*/
@@ -513,13 +515,31 @@ section {
 
 /*Our Services Section */
 
-.our-services h1, h3 {
+.our-services h3 {
     font-family: 'Source Sans Pro';
     color: #acd373;
+    margin-top:0;
+    margin-bottom: 3px;
+}
+
+.our-services h2 {
+  font-family: 'Source Sans Pro';
+  color:#454545;
+  font-weight: 300;
+  text-align: center;
+}
+ 
+.our-services em {
+  color: #acd373;
+}
+
+.our-services span{
+  font-size: 14px;
+  text-align: center;
 }
 
 .service-item{
-  padding-lef:55px;
+  padding-left:55px;
   min-height:65px;
   margin:0 0 10px;
 }
@@ -529,6 +549,7 @@ section {
   vertical-align: top;
   margin-top: 5px;
   width: 50px;
+  padding-bottom: 0;
 }
 
 .service-item * {
@@ -539,23 +560,127 @@ section {
   width: 230px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 15px;
+  margin-left: 10px;
+  padding-top: 0;
 }
 
 .service-info h3{
   margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .service-info p{
   margin: 0;
 }
 
+/*Team Section*/
 
+.team {
+  background-color: #acd373;
+}
+
+.team-icon {
+  display: inline;
+}
+
+.left-arrow {
+  position:absolute;
+  top:50%;
+  transform: tranlateY:(-50%);
+}
+
+.right-arrow {
+  position:absolute;
+  top:50%;
+  trasform: translateY:(-50);
+  right: 0px;
+}
+
+.boy-face img {
+  display:block;
+  border-radius: 50%;
+  margin: 13px auto 36px;
+  position: relative;
+}
+
+.social {
+  text-align: center;
+  padding:10px;
+  border-radius: 0 0 8px 9px;
+  text-align: center;
+  background:#ebebeb;
+}
+
+.team h2 {
+  color:#f7f7f7;
+  text-align: center;
+  font:400 20px 'Source Sans Pro';
+  text-transform: uppercase;
+}
+
+.team h3 {
+  text-align: center;
+}
+
+.boy-face span {
+  display:block;
+  text-align: center;
+}
+
+.team-icon img {
+  padding-top: 25px;
+  display: inline-block;
+  margin-left: 20px 0 auto;
+}
+
+.boy-form span {
+  text-align: left;
+}
+
+
+/*Works Section*/
+
+.works-header {
+  text-align: center;
+}
+
+.works-header h2{
+  font-weight: 400;
+  color: #454545;
+}
+
+.works-header em {
+  color: #acd373;
+}
+
+.letoy h3 {
+  text-align: center;
+  font-weight: 450;
+}
+
+.letoy {
+  text-align: center;
+}
+
+.letoy span{
+  color: #787878;
+}
+
+.works-header span {
+  font-size: 13px;
+}
+
+.works-img img {
+  display: inline-block;
+  margin: 15px auto;
+}
 /*John Doe Section*/
 
 .testimonial-company {
   margin: 50px 0;
 }
+
 
 .testimonial-company img {
   border-radius: 50%;
@@ -567,7 +692,6 @@ section {
   background: url(images/paperopenbackground-03.gif) no-repeat;
   background-size: cover;
 }
-
 
 .testimonial-quote{
   background: 
@@ -585,6 +709,9 @@ section {
   display: inline-block;
   vertical-align: middle;
 }
+.company-details {
+  width: 190px;
+}
 
 .company-details {
   margin-left:22px;
@@ -592,9 +719,18 @@ section {
 
 .company-details h3 {
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   text-transform: uppercase;
+  color: #acd373;
+  font-weight: 500;
 }
+
+.testimonials-true h2{
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 17.27px;
+}
+
 
 .company-details a{
   color: rgb(247, 247, 247);
@@ -604,14 +740,26 @@ section {
   text-decoration: none;
 }
 
+/*Blog Section */
+
+.map img {
+  padding: 0;
+}
 /*Contact Section*/
 
 .contact {
   background-color: #acd373;
 }
 
-form label {
+form label{
   display:block;
+  color:#f7f7f7;
+}
+
+.contact span {
+  color: #f7f7f7;
+  font: 200 13px 'Source Sans Pro';
+  text-align: center;
 }
 
 ul {
@@ -620,4 +768,82 @@ ul {
 
 ul li {
   display: inline;
+}
+/*
+.headshot {
+  position:absolute;
+  top: -40px;
+  left:58px;
+  radius:50%;
+  top:60px;
+}
+*/
+
+
+.employee-card {
+    position:relative;
+}
+
+#employee-prev {
+  position:relative;
+}
+
+
+
+.work-details {
+  position:relative;
+  background-color:#ebebeb;
+}
+
+.testimonial-selector .selected {
+  background:white;
+}
+
+.testimonial-selector .selected {
+ background:white;
+}
+
+
+.testimonial-selector span{
+  display:inline-block;
+  height:12px;
+  width:12px;
+  border: 1px solid white;
+  border-radius:50%;
+}
+
+.selected {
+  
+}
+
+.testimonial-selector {
+  text-align: center;
+}
+
+.quote {
+  border:1px solid #f7f7f7;
+  padding:10px 10px 21px 10px;
+  position:relative; 
+}
+
+.quote-marks {
+  position:absolute;
+  right:27px;
+  bottom:15px;
+}
+
+.quote-triangle {
+  position:absolute;
+  left:0;
+  bottom:-21px
+}
+
+.bloglink {
+  width:160px;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.blog {
+  padding: 30px 0;
 }

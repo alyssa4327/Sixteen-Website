@@ -30,8 +30,8 @@
    <video src="whatcaffienedoes.mp4" poster="images/video-poster-students.jpg" controls width="360" height="261"></video>
 </section>
 <section class="our-services">
-  <h>Our <em>Services</em></h2>
-    <span class="quote">&ldquo;Asperiores ea commodi eius a quo omnis esse&rdquo;</span>
+  <h2>Our <em>Services</em></h2>
+    <span>&ldquo;Asperiores ea commodi eius a quo omnis esse&rdquo;</span>
   <hr />
 <!--  IMG of Divider-->
   <div>
@@ -66,44 +66,54 @@
       <span>Asperiores ea commodi eius a quo omnis esse</span>
         <hr />
   </div>
-  <div>
-    <img src="images/boy-face-png.png" alt="boy-face">
-    <h3>John Doe</h3>
-    <span>CEO &amp; Founder</span>
-  </div>
-  <div><img src="images/facebook-grey-png.png" alt="facebook-grey">
-  </div>
-  <div><img src="images/twitter-grey-png.png" alt="twitter-grey">
-  </div>
-  <div><img src="images/linkedin-grey-png.png" alt="linkedin-grey"></div>
+  <div class="boy-face">
+     <div id="employee-prev"></div>
+       <div class="employee-card"></div>
+        <img class="headshot"src="images/boy-face-png.png" alt="boy-face">
+        <h3>John Doe</h3>
+        <span>CEO &amp; Founder</span>
+         <div class="social">
+          <a href="#" target="blank"><div class="team-icon"><img src="images/facebook-grey-png.png" alt="facebook-grey"></a>
+          </div>
+          <a href="#" target="blank"><div class="team-icon"><img src="images/twitter-grey-png.png" alt="twitter-grey"></a>
+          </div>
+          <a href="#" target="blank"><div class="team-icon"><img src="images/linkedin-grey-png.png" alt="linkedin-grey"></a>
+          </div>
+<!--LEFT AND RIGHT ARROW-->
+  <div class="boy-form">
   <span>Are you the next ? lets join us</span>
    <a href="#">We Are Hiring</a>
+  </div>
 </section>
-<section class="Works">
-  <div>
+<section class="works">
+  <div class="works-header">
   <h2>Our Recent <em>Works</em></h2>
     <span>"Asperiores ea commodi eius a quo omnis esse"  </span>
   <hr />
   </div>
-  <div>
+  <div class="graph">
     <img src="images/graphcorrect-png.png" alt="graphcorrect">
   </div>
-  <div>
+  <div class="work-details"> 
+    <div class="letoy"> 
+<!--    title position absolute-->
     <h3>Letoy Themes</h3>
     <span>Web Design &amp; Development</span>
-  </div>
+    </div>
+  </div>  
   <a href="#">View All Works</a>
-  <div>
+  <div class="works-img">
     <img src="images/evantostudio-png.png" alt="evantostudio">
-  </div>
-  <div>
     <img src="images/themeforest-png.png" alt="themeforest">
   </div>
 </section>
 <section class="testimonials">
   <div class="testimonial-control">
     <div class="testimonial-item">
-      <div class="quote"><p>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo et! Nulla laborum exercitationem illum</p>
+      <div class="quote">
+        <p>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo et! Nulla laborum exercitationem illum</p>
+          <img src="images/blockquotes.png" class="quote-marks"/>
+          <img src="images/ribbon.png" class="quote-triangle"/>
        </div>
         <div class="testimonial-company">
         <img src="images/client-glasses-png.png" alt="client-glasses">
@@ -118,8 +128,8 @@
    <span></span>
    <span></span>
  </div>
- </div> 
-  <div>
+ </div>
+  <div class="testimonials-true">
     <h2>Testimonials</h2>
       <p>Optio corporis fuga mollitia sit magni ut quasi consequuntur aut iste aspernatur totam similiue sint. Harum voluptas vero iste. itaque et in sit eveniet acusamus quibusdam cupiditate</p>
   </div>
@@ -142,9 +152,10 @@
     </div>
     <div class="bloglink">
       <img src="images/beach-png.png" alt="beach">
-      <div>
-        <img src="images/mobilelink.png" alt="mobile" class="post-icon">
+        <img class="post-type"src="images/mobilelink.png" alt="mobile" class="post-icon">
+        <div class="blog-title">
         <h3>Native Apps VS Web Apps, What is the better choice ?</h3>
+         </div>
         <a href="#">Read More</a> 
       </div>
     </div>
@@ -167,12 +178,11 @@
   </div>
   <span>Join Our Newsletter for article Update</span>
   <a href="#">example@ipsum.com</a>
-  <img src="" alt="">
-</section>
-<section class="contact">
-  <div>
+  <div class="map">
     <img src="images/map-png.png" alt="map">
   </div>
+</section>
+<section class="contact">
   <h2>Contact</h2>
   <hr />
   <form action="">
@@ -185,10 +195,9 @@
       <textarea name="message" id="message"></textarea>  
     <div>
      <form action="">
-    <input type="Submit" name="Send" value="Send" />
+    <input type="Submit" name="Send" value="Send">
     
     <input id="signup-input" type="text" placeholder="enter email">
-    <input class="submit" type="submit">
      
       </form>    
     </div>
